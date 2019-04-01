@@ -3,7 +3,7 @@ STARTING Git bash:
 export PS1='$'
 
 
-dagdag dito
+
 -------------------------------------------------
 
 CREATE NEW REPOSITORY:
@@ -14,12 +14,11 @@ git clone http://github.com/xerxes/newgittest.git      ;add repository to local
 git status    						; show difference
 
 --------------------------------------------------
-ADD NEW FILE:
 
 git add index.html   					;  add index.html 
 git commit -m  "added index.html"                       ;  lockin file to repository. message: "added index.html
-git push                                                ; push to github.com.
-dagdag dito
+
+
    goto  github.com and refresh page to update.
 
 
@@ -30,13 +29,12 @@ git pull                                                ; update all github file
 git add -A                                              ; add all updated files.
 git commit -m  "made changes to index.html file"        ; lockin file to repository. message: "added index.html
 git push                                                ; push to github.com.
-dagdag dito
+
 -------------------------------------------------------
 git                                                     ; to show all git cmds
 
 -------------------------------------------------------
-CONFLICT IN GITHUB:
-ito pa
+
 git pull                                                ; update all github files but found conflict. CONFLICT.
 
 MODIFY THE FILES THEN MERGE:
