@@ -6,46 +6,17 @@ export PS1='$'
 
 -------------------------------------------------
 
-CREATE NEW REPOSITORY:
-
-git clone http://github.com/xerxes/newgittest.git      ;add repository to local
-   goto: project ->add flders to project ->  <new project> -> ok  
-
-git status    						; show difference
-
---------------------------------------------------
-
-git add index.html   					;  add index.html 
-git commit -m  "added index.html"                       ;  lockin file to repository. message: "added index.html
-
-
-   goto  github.com and refresh page to update.
-
-
-------------------------------------------------------
-UPDATE NEW FILES FROM GITHUB:
-git pull                                                ; update all github files from github repository. only works if in the right repository . 
-
-git add -A                                              ; add all updated files.
-git commit -m  "made changes to index.html file"        ; lockin file to repository. message: "added index.html
-git push                                                ; push to github.com.
-
--------------------------------------------------------
-git                                                     ; to show all git cmds
-
--------------------------------------------------------
-
-git pull                                                ; update all github files but found conflict. CONFLICT.
-
+CREATE NEW REPOSITORY:ert
+git clone http://githuertetrert
 MODIFY THE FILES THEN MERGE:
-
-git add -A
-git commit                                              ; to commit files. Entering VIM to add long message 
-:wq                                                     ; to exit VIM view
+t
+git add -Aweret
+git commit           e                                   ; to commit files. Entering VIM to add long message 
+:wq                  ter                                   ; to exit VIM view
 git push                                                ; push to github.com
 
 
-
+ert
 
 ------------------------------------------
 git reset cacl.py                                       ; to put files out from staging area
